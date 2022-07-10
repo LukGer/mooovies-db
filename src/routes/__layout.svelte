@@ -1,11 +1,10 @@
 <script>
     import "../main.css";
+    import Header from "$lib/components/Header.svelte";
 </script>
 
 <div class="page">
-    <div class="header">
-        <p>Header</p>
-    </div>
+    <Header></Header>
     
     <slot></slot>
     
@@ -14,11 +13,4 @@
 
 
 <style>
-
-    .header {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
 </style>
